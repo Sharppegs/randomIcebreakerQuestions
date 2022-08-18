@@ -6,8 +6,9 @@
 
 html, body {
 	min-height: 100%;
-	background: #fff;
-	color: #000;
+	background: #1d1d1d;
+	color: #FFF;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
@@ -25,15 +26,18 @@ body {
 }
 
 #question-btn {
-  font-family: cursive;
-  font-weight: 600;
-  height: 8vh;
-  width: 25vw;
+  font-size: 1.1rem;
+  font-weight: 700;
+  /* height: 8vh;
+  width: 25vw; */
   border-radius: 15em;
-  background: yellow;
-  border: 0.15em solid cadetblue;
-  box-shadow: 0px 5px 5px 1px blue;
+  background: #d05401;
+  color: #FFF;
+  border: none;
+  box-shadow: 0px 1px 5px 3px #f58505;
   cursor: pointer;
+  padding: 1em 1.5em;
+  margin-top: 1.5em;
 }
 
 #question-btn:hover {
